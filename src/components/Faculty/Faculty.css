@@ -1,0 +1,29 @@
+/* Admissions.css */
+.bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .jumbotron {
+    background: #ffffff;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .jumbotron h2 {
+    color: #007bff;
+  }
+  
+  .jumbotron:hover {
+    transform: translateY(-10px);
+    background-color: #f1f1f1;
+  }
+  
+  .bg-dark {
+    background-color: #343a40 !important;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  

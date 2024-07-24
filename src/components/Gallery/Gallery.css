@@ -1,0 +1,46 @@
+/* Gallery.css */
+.bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .card {
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    background-color: #f1f1f1;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .embed-responsive-16by9 {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  
+  .embed-responsive-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .bg-dark {
+    background-color: #343a40 !important;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  

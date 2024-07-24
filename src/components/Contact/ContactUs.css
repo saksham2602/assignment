@@ -1,0 +1,38 @@
+/* ContactUs.css */
+.bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .form-control {
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-control:focus {
+    border-color: #495057;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .btn-dark {
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn-dark:hover {
+    background-color: #212529;
+    transform: translateY(-2px);
+  }
+  
+  .bg-dark {
+    background-color: #343a40 !important;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
