@@ -12,7 +12,7 @@ import ContactUs from './components/Contact/ContactUs';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/assignment">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutUs />} />
